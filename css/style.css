@@ -1,0 +1,181 @@
+body {
+	background: #b4d4ff;
+	color: rgb(0, 0, 0);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	
+}
+
+.header-image-wrapper {
+	max-width: 87vw;
+	height: 400px;
+	background: #b4d4ff;
+	margin-left: 150px;
+}
+.header-image-content {
+	display: block;
+	min-width: 87vw;
+	height: 400px;
+	resize: both;
+	background: #b4d4ff url(../images/campus.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.name {
+	font-size: 36px;
+	font: Georgia;
+	color: #173f5c;
+	margin: 15px 0 0 0;	
+	float: left;
+}
+
+.float-container {
+    
+}
+
+.float-child {
+    width: 200px;
+	height: 100vh;
+    float: left;
+}  
+
+
+.navigation {
+	display: block;
+	float: left;
+	width: 150px;
+	height: 100vh;
+	background: #173f5c;
+	position: fixed;
+	margin: 0;
+  	padding: 0;
+}
+.navigation-content {
+	margin: 0;
+	width: 150px;
+}
+.panda {
+	font-size: 35px;
+	text-align: center;
+	float: center;
+}
+.csheader {
+	font-size: 25px;
+	text-align: center;
+	float: center;
+}
+.navigation-content a {
+	display: block;
+	float: center;
+	height: 40px;
+	width: 150px;
+	line-height: 40px;
+	color: #b4d4ff;
+	font-size: 18px;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+.navigation-content a:hover {
+	background: #070a0c;
+}
+
+.body {
+	width: 85vw;
+	/* margin-left: 10px; */
+	padding-left: 150px;
+}
+
+.body p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 70vw;
+}
+
+
+p.two{
+	text-indent: 0 hanging;
+	margin: 0;
+	padding-left: 50px;
+	/* padding-right: 50px; */
+	padding-bottom: 10px;
+}
+
+p.indent {
+	margin: 0;
+	padding-left: 80px;
+ 	text-indent: 60px hanging;
+}
+
+.col1 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 40vw;
+	float: left;
+}
+
+.col2 {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	padding-left: 1vw;
+	width: 35vw;
+	float: right;
+
+}
+
+.col2 img {
+	width: 20vw;
+	float: center;
+}
+
+.col3 {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	padding-left: 1vw;
+	width: 35vw;
+	float: right;
+
+}
+
+.col3 img {
+	width: 30vw;
+	float: center;
+}
+
+.col4 {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	padding-left: 200px;
+	width: 50vw;
+	float: center;
+
+}
+
+.col4 img {
+	width: 50vw;
+	float: center;
+}
+
+
+a:link {
+	color: #b4d4ff;
+}
+a:visited {
+	color: #b4d4ff;
+}
+
+a.one:link {
+	color: #4f4c53;
+}
+a.one:visited {
+	color: #4f4c53;
+}
+
+footer {
+    position: absolute;
+    /* position: bottom; */
+    width: 85vw;
+	padding-left: 180px;
+}
